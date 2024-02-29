@@ -1,0 +1,7 @@
+GameStoreApi.sln
+.vscode
+GameStoreApi/bin
+GameStoreApi/obj
+GameStoreApi/Properties
+GameStoreApi/appsettings.Development.json
+GameStoreApi/GameStoreApi.db

@@ -1,0 +1,27 @@
+POST http://localhost:5118/games
+Content-Type: application/json
+
+{
+    "name" : "Minecraft",
+    "genreId" : 5,
+    "price" : 19.99,
+    "releaseDate" : "2011-11-18"
+}
+###
+GET http://localhost:5118/games/4
+###
+PUT http://localhost:5118/games/5
+Content-Type:  application/json
+
+{
+  "name": "Minecraft by Priyanshu",
+  "genreId": 5,
+  "price": 19.99,
+  "releaseDate": "2011-11-18"
+}
+###
+GET http://localhost:5118/games
+
+
+###
+DELETE http://localhost:5118/games/5
